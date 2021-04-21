@@ -4,7 +4,7 @@ function findHarmonicNumber(userInput) {
         harmonicNumber += 1 / index;
     }
 }
-let userInput = readline.question("Enter the number to print harmonic number\n");;
+let userInput = readline.question("Enter the number to print harmonic number\n");
 let harmonicNumber = 0;
 findHarmonicNumber(userInput);
 console.log("Harmonic number is : " + harmonicNumber);

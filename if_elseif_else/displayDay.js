@@ -17,5 +17,5 @@ function dispayDay(dayNumber){
     else 
         console.log("Invalid number.");
     }
-let dayNumber = readline.question("Enter the number between 1-7\n");;
+let dayNumber = readline.question("Enter the number between 1-7\n");
 dispayDay(dayNumber);
